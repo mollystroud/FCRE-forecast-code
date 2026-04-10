@@ -31,4 +31,4 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
-        run:  Rscript $GITHUB_WORKSPACE/workflows/glm_aed_flare_v3/combined_run_aed.R
+        run:  Rscript $GITHUB_WORKSPACE/workflows/glm_aed_flare_rs/combined_run_aed.R
